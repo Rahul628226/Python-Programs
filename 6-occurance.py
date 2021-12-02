@@ -1,10 +1,10 @@
 n=int(input("Enter the limit"))
 a=[]
+l=[]
 for i in range(n):
-    k = input("Enter the Names")
-    a.append(k)
-s=0
-for x in a:
-    b=x.count('a')
-    s=s+b
-print(s)
+    k=input("Enter the Names")
+    l=k.split()[0]
+
+    if 'a' in l:
+       a.append(l)
+print(a)
