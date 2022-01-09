@@ -1,8 +1,8 @@
-def sagar(k):
+def comp(k):
     s=k+(k*k)+(k*k*k)
     print(s)
 n=int(input("enter a number="))
 
-sagar(n)
+comp(n)
 
 
